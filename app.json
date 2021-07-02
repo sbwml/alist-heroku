@@ -1,0 +1,6 @@
+{
+  "name": "Alist",
+  "description": "deploy Alist to Heroku",
+  "website": "https://hub.docker.com/r/sbwml/alist",
+  "repository": "https://hub.docker.com/r/sbwml/alist"
+}
