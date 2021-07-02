@@ -44,7 +44,7 @@ info:
     max_size: 0
 server:
   address: 0.0.0.0
-  port: "5244"
+  port: "$PORT"
   search: true
   static: dist
   site_url: '*'
