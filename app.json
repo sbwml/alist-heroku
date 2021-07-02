@@ -4,9 +4,21 @@
   "keywords": ["Alist"],
   "env": {
     "TOKEN": {
-       "description": "refresh_token",
+       "description": "阿里云盘 refresh_token",
        "value": ""
-     }
+    },
+    "FOLDER": {
+       "description": "挂载指定目录（填写目录 UUID）",
+       "value": "root"
+    },
+    "TITLE": {
+       "description": "网站标题",
+       "value": "Alist on heroku"
+    },
+    "PASSWORD": {
+       "description": "重构目录密码",
+       "value": "password"
+    }
   },
   "website": "https://hub.docker.com/r/sbwml/alist",
   "repository": "https://hub.docker.com/r/sbwml/alist",

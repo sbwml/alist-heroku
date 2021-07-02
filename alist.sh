@@ -4,11 +4,11 @@ mkdir -p /alist/config/
 # 写入配置文件
 cat >/alist/config/conf.yml <<EOF
 info:
-  title: Alist - heroku
+  title: $TITLE
   logo:
   footer_text: Cooluc's Blog
   footer_url: https://www.cooluc.com/
-  music_img: https://cdn.cooluc.com/m.png
+  music_img: https://img.oez.cc/2020/12/19/0f8b57866bdb5.gif
   check_update: false
   script: ""
   autoplay: true
@@ -48,13 +48,13 @@ server:
   search: true
   static: dist
   site_url: '*'
-  password: password
+  password: $PASSWORD
 ali_drive:
   api_url: https://api.aliyundrive.com/v2
   max_files_count: 200
   drives:
   - refresh_token: $TOKEN
-    root_folder: root
+    root_folder: $FOLDER
     name: home
     password: ""
     hide: false
