@@ -1,6 +1,14 @@
 {
   "name": "Alist",
-  "description": "deploy Alist to Heroku",
+  "description": "Alist on Heroku",
+  "keywords": ["Alist"],
+  "env": {
+    "TOKEN": {
+       "description": "refresh_token",
+       "value": ""
+     }
+  },
   "website": "https://hub.docker.com/r/sbwml/alist",
-  "repository": "https://hub.docker.com/r/sbwml/alist"
+  "repository": "https://hub.docker.com/r/sbwml/alist",
+  "stack": "container"
 }
