@@ -48,7 +48,7 @@ server:
   search: true
   static: dist
   site_url: '*'
-  password:
+  password: password
 ali_drive:
   api_url: https://api.aliyundrive.com/v2
   max_files_count: 200
