@@ -3,19 +3,19 @@
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
   "env": {
-    "TOKEN": {
+    "ATOKEN": {
        "description": "阿里云盘 refresh_token",
        "value": ""
     },
-    "FOLDER": {
+    "BFOLDER": {
        "description": "挂载指定目录（填写目录 UUID）",
        "value": "root"
     },
-    "TITLE": {
+    "CTITLE": {
        "description": "网站标题",
        "value": "Alist on heroku"
     },
-    "PASSWORD": {
+    "DPASSWORD": {
        "description": "重构目录密码",
        "value": "password"
     }

@@ -4,7 +4,7 @@ mkdir -p /alist/config/
 # 写入配置文件
 cat >/alist/config/conf.yml <<EOF
 info:
-  title: $TITLE
+  title: $CTITLE
   logo:
   footer_text: Cooluc's Blog
   footer_url: https://www.cooluc.com/
@@ -48,13 +48,13 @@ server:
   search: true
   static: dist
   site_url: '*'
-  password: $PASSWORD
+  password: $DPASSWORD
 ali_drive:
   api_url: https://api.aliyundrive.com/v2
   max_files_count: 200
   drives:
-  - refresh_token: $TOKEN
-    root_folder: $FOLDER
+  - refresh_token: $ATOKEN
+    root_folder: $BFOLDER
     name: home
     password: ""
     hide: false
