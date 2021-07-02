@@ -54,7 +54,7 @@ ali_drive:
   max_files_count: 200
   drives:
   - refresh_token: $TOKEN
-    root_folder:
+    root_folder: root
     name: home
     password: ""
     hide: false
