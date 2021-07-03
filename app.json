@@ -3,6 +3,10 @@
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
   "env": {
+    "APPNAME": {
+       "description": "Heroku App name（必须与上面的 App name 保持一致）",
+       "value": ""
+    },
     "ATOKEN": {
        "description": "阿里云盘 refresh_token",
        "value": ""

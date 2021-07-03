@@ -63,5 +63,10 @@ database:
   dBFile: alist.db
 EOF
 
+cat >/var/spool/cron/crontabs/root <<EOF
+*/20 * * * * /usr/bin/curl -d '{"path":"home","password":"$DPASSWORD","depth":3}' -H "Content-Type: application/json" -X POST https://$appname.herokuapp.com/api/rebuild
+EOF
+crond
+
 cd /alist
 ./alist -conf config/conf.yml
