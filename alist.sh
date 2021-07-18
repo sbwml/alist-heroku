@@ -46,6 +46,7 @@ server:
   address: 0.0.0.0
   port: "$PORT"
   search: true
+  download: true
   static: dist
   site_url: '*'
   password: $DPASSWORD
