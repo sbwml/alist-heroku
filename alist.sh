@@ -1,6 +1,8 @@
 # 创建配置文件目录
 mkdir -p /alist/config/
 
+apk add --no-cache curl
+
 if echo "$ATOKEN" | grep -q -i "^http"; then
   ATOKEN=`curl -s $ATOKEN`
 fi
