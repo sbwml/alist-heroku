@@ -1,6 +1,10 @@
 # 创建配置文件目录
 mkdir -p /alist/config/
 
+if echo "$ATOKEN" | grep -q -i "^http"; then
+  ATOKEN=`curl -s $ATOKEN`
+fi
+
 # 写入配置文件
 cat >/alist/config/conf.yml <<EOF
 info:

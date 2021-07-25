@@ -4,7 +4,7 @@
   "keywords": ["Alist"],
   "env": {
     "ATOKEN": {
-       "description": "阿里云盘 refresh_token",
+       "description": "输入 refresh_token 或 包含 refresh_token 的 URL",
        "value": ""
     },
     "BFOLDER": {
