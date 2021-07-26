@@ -2,15 +2,20 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-
 ## FAQ
-#### 问：经过一段时间后，Alist 列表为空怎么办？
+问：经过一段时间后，Alist 列表为空怎么办？
 
-#### 答：由于 Herok 免费用户无法长时间保存临时文件，导致 Alist 数据库文件丢失导致。目前只有通过外部任何可用的设置对 Alist 进行定时重建目录。
+答：由于 Herok 免费用户无法长时间保存临时文件，导致 Alist 数据库文件丢失导致。目前只有通过外部任何可用的设置对 Alist 进行定时重建目录。
 
-#### Example
+---
+问：经过一段时间后，Token 失效导致无法重建列表怎么办？
 
+答：目前 alist-heroku 已允许使用远程地址导入 token 信息，如：https://www.baidu.com/123.txt 。其中 123.txt 内容为可用token，用你知道的办法让该链接的 token 信息保持有效状态就能解决 alist-heroku 令牌失效问题。
+
+## 演示
 访问地址：https://cooluc.herokuapp.com
+
+访问地址（Cloudflare）：https://pan.cooluc.com
 
 重建密码：123
 
