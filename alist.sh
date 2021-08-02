@@ -14,7 +14,7 @@ info:
   logo:
   footer_text: Cooluc's Blog
   footer_url: https://www.cooluc.com/
-  music_img: https://img.oez.cc/2020/12/19/0f8b57866bdb5.gif
+  music_img: https://cdn.jsdelivr.net/gh/sbwml/cdn@master/img/0f8b57866bdb5.gif
   check_update: false
   script: ""
   autoplay: true
