@@ -15,6 +15,8 @@
 ## 演示
 访问地址：https://cooluc.herokuapp.com
 
+Cloudflare访问：https://example.cooluc.com
+
 重建密码：123
 
 在任何能添加定时任务的设备上设置每 30 分钟执行以下命令，可以解决 Herok 超时丢失 Alist 数据库问题（重建密码和访问地址需更改为自己的）。
