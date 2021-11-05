@@ -1,4 +1,4 @@
-FROM sbwml/alist:v1
+FROM sbwml/alist:latest
 MAINTAINER cooluc <admin@cooluc.com>
 
 RUN chmod -R 777 /alist/config

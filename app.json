@@ -1,25 +1,7 @@
 {
-  "name": "Alist",
+  "name": "Alist v2",
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
-  "env": {
-    "ATOKEN": {
-       "description": "输入 refresh_token 或 包含 refresh_token 的 URL",
-       "value": ""
-    },
-    "BFOLDER": {
-       "description": "挂载指定目录（填写目录 UUID）",
-       "value": "root"
-    },
-    "CTITLE": {
-       "description": "网站标题",
-       "value": "Alist on heroku"
-    },
-    "DPASSWORD": {
-       "description": "重构目录密码",
-       "value": "password"
-    }
-  },
   "website": "https://hub.docker.com/r/sbwml/alist",
   "repository": "https://hub.docker.com/r/sbwml/alist",
   "stack": "container"
