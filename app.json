@@ -2,6 +2,32 @@
   "name": "Alist v2",
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
+  "env": {
+    "ADATABASE": {
+       "description": "数据库类型（sqlite3 / mysql）",
+       "value": "sqlite3"
+    },
+    "BSQLUSER": {
+       "description": "MySQL 用户名（数据库类型为 sqlite3 时，该项留空）",
+       "value": ""
+    },
+    "CSQLPASSWORD": {
+       "description": "MySQL 密码（数据库类型为 sqlite3 时，该项留空）",
+       "value": ""
+    },
+    "DSQLHOST": {
+       "description": "MySQL 主机地址（数据库类型为 sqlite3 时，该项留空）",
+       "value": ""
+    },
+    "ESQLPORT": {
+       "description": "MySQL 端口（数据库类型为 sqlite3 时，该项留空）",
+       "value": ""
+    },
+    "FSQLNAME": {
+       "description": "MySQL 数据库名称（数据库类型为 sqlite3 时，该项留空）",
+       "value": ""
+    }
+  },
   "website": "https://hub.docker.com/r/sbwml/alist",
   "repository": "https://hub.docker.com/r/sbwml/alist",
   "stack": "container"

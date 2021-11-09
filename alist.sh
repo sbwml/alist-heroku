@@ -6,12 +6,12 @@ cat >/alist/config/config.json <<EOF
   "address": "0.0.0.0",
   "port": $PORT,
   "database": {
-    "type": "sqlite3",
-    "user": "",
-    "password": "",
-    "host": "",
-    "port": 0,
-    "name": "",
+    "type": "$ADATABASE",
+    "user": "$BSQLUSER",
+    "password": "$CSQLPASSWORD",
+    "host": "$DSQLHOST",
+    "port": $ESQLPORT,
+    "name": "$FSQLNAME",
     "table_prefix": "x_",
     "db_file": "/alist/config/data.db"
   }
