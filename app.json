@@ -17,7 +17,7 @@
     },
     "DSQLHOST": {
        "description": "MySQL 主机地址（数据库类型为远程 MySQL 时需要更改）",
-       "value": "0.0.0.0"
+       "value": "db4free.net"
     },
     "ESQLPORT": {
        "description": "MySQL 端口（数据库类型为远程 MySQL 时需要更改）",
@@ -25,7 +25,7 @@
     },
     "FSQLNAME": {
        "description": "MySQL 数据库名称（数据库类型为远程 MySQL 时需要更改）",
-       "value": "alist_db"
+       "value": "mysqldb"
     }
   },
   "website": "https://hub.docker.com/r/sbwml/alist",
