@@ -1,6 +1,6 @@
 # Alist on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+点击这里开始👉 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## FAQ
 问：如果让 Herok 应用保持存活状态？
@@ -12,7 +12,9 @@
 方法二：使用 curl 命令配合定时任务每10分钟获取一次 Alist 文件目录列表同样可以达到应用不睡眠效果，环境可以是你家里的路由器或其他有curl 命令的 linux。
 
 ```bash
-curl -d '{"path":"/","password":""}' -H "Content-Type: application/json" -X POST https://应用名称.herokuapp.com/api/public/path
+curl -d '{"path":"/","password":"","page_num":1,"page_size":30}' \
+    -H "Content-Type: application/json" \
+    -X POST https://应用名称.herokuapp.com/api/public/path
 ```
 
 
