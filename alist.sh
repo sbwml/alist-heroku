@@ -14,6 +14,15 @@ cat >/alist/config/config.json <<EOF
     "name": "$FSQLNAME",
     "table_prefix": "x_",
     "db_file": "/alist/config/data.db"
+  },
+  "scheme": {
+    "https": false,
+    "cert_file": "",
+    "key_file": ""
+  },
+  "cache": {
+    "expiration": $GEXPIRATION,
+    "cleanup_interval": $HCLEANUP_INTERVAL
   }
 }
 EOF

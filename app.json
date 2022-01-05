@@ -26,6 +26,14 @@
     "FSQLNAME": {
        "description": "MySQL 数据库名称（数据库类型为远程 MySQL 时需要更改）",
        "value": "mysqldb"
+    },
+    "GEXPIRATION": {
+       "description": "缓存失效时间（单位:分钟）",
+       "value": "60"
+    },
+    "HCLEANUP_INTERVAL": {
+       "description": "清理失效缓存间隔",
+       "value": "120"
     }
   },
   "website": "https://hub.docker.com/r/sbwml/alist",
