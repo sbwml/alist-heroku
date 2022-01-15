@@ -5,6 +5,7 @@ cat >/alist/config/config.json <<EOF
 {
   "address": "0.0.0.0",
   "port": $PORT,
+  "assets": "index",
   "database": {
     "type": "$ADATABASE",
     "user": "$BSQLUSER",
