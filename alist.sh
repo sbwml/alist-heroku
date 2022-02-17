@@ -1,5 +1,5 @@
 # 创建配置文件目录
-mkdir -p /alist/config/
+mkdir -p /alist/config/temp
 
 cat >/alist/config/config.json <<EOF
 {
@@ -24,7 +24,8 @@ cat >/alist/config/config.json <<EOF
   "cache": {
     "expiration": $GEXPIRATION,
     "cleanup_interval": $HCLEANUP_INTERVAL
-  }
+  },
+  "temp_dir": "/alist/config/temp"
 }
 EOF
 
