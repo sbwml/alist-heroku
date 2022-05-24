@@ -27,11 +27,3 @@ curl -d '{"path":"/","password":"","page_num":1,"page_size":30}' \
 注册免费 MySQL 远程数据库：https://www.db4free.net/
 
 完成注册后，你的邮箱会收到MySQL 连接地址、端口、数据库名称、用户信息。
-
-
-## 演示
-
-访问地址：https://cooluc.herokuapp.com
-
-Cloudflare访问：https://example.cooluc.com
-
